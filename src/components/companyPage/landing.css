@@ -1,0 +1,146 @@
+.navbarCP{
+    background-color: #2e5c7b;
+}
+
+.navbarUL{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.iconos1 .industria{
+    color: #2e5c7b;
+}
+
+.iconos1 .retail{
+    color: #2e5c7b;
+    font-weight: bold;
+}
+
+.icono1{
+    width: 50%;
+}
+
+.rowBrand img{
+    width: 90%;
+}
+
+.rowBrand h1{
+    color: #2e5c7b;
+}
+
+.card1{
+    width: 80%;
+    margin-left: 60px;
+    -webkit-box-shadow: 5px 5px 15px 3px #2e5c7b; 
+    box-shadow: 5px 5px 15px 3px #2e5c7b;
+}
+
+.card1 h5{
+    color: #2e5c7b;
+}
+
+.inputEmpresa input{
+    border: 0px;
+    background-color: white;
+    border-radius: 25px;
+    width: 320px;
+    margin-left: 10px;
+    height: 50px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 3px #2e5c7b; 
+box-shadow: 5px 5px 15px 3px #2e5c7b;
+}
+
+.spanSearch{
+    margin-left: 130px;
+    position: absolute;
+    margin-top: -30px;
+    color: #2e5c7b;
+}
+
+.cardcol2{
+    width: 200px;
+    height: 220px;
+    padding: 5px;
+    margin-left: 100px;
+    -webkit-box-shadow: 5px 5px 15px 3px #2e5c7b; 
+    box-shadow: 5px 5px 15px 3px #2e5c7b;
+}
+
+.cardcol2 h5{
+    color: #2e5c7b;
+}
+
+.circle{
+    width: 50px;
+    height: 100px;
+    border: 2px solid #2e5c7b;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+.textTitle{
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 25px;
+    color: #2e5c7b;
+}
+
+.opinan{
+    margin-top: 80px;
+    color: #2e5c7b;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.cardsAvaliation{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 350px;
+    -webkit-box-shadow: 5px 5px 15px 3px #2e5c7b; 
+    box-shadow: 5px 5px 15px 3px #2e5c7b;
+}
+
+.buttonEvalua{
+    width: 30%;
+  margin-left: 900px;
+  margin-top: -200px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px 3px #2e5c7b; 
+  box-shadow: 5px 5px 15px 3px #2e5c7b;
+}
+
+.imgCircle{
+    margin-top: -240px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+
+@media screen and (max-width:767px) {
+    .rowIconos1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rowBrand{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icono1{
+        width: 350%;
+    }
+
+    .rowBrand img{
+        width: 550%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
